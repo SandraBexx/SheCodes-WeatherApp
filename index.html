@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- CSS only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Marhey:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <div class="container">
+        <form id="cityForm">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter a city name"
+              id="cityName"
+            />
+            <input
+              type="submit"
+              value="Search"
+              class="btn btn-primary submit"
+              id="searchButton"
+            />
+          </div>
+        </form>
+      </div>
+
+      <h1 id="currentCity">Search me</h1>
+      <h4 id="dateAndTime">Sunday 14:30</h4>
+      <h2>
+        ☀
+        <span id="currentTemperature">😃 </span>
+        <sup id="temperatureUnit" class="temperatureUnit"
+          ><a href="#" id="celsius-link">°C</a> /
+          <a href="#" id="fahrenheit-link">°F</a>
+        </sup>
+      </h2>
+      <img src="img/sunshine-vibes.gif" alt="sun" class="sun-gif" />
+      <div class="row">
+        <div class="col">
+          <span class="weekday"> Tue </span>
+          <br />
+          <span class="date"> 15.11 </span>
+          <br />
+          <span class="emoij"> 🌤 </span>
+          <br />
+          <span class="temp"> 13°C / 3°C </span>
+        </div>
+        <div class="col">
+          <span class="weekday"> Wed </span>
+          <br />
+          <span class="date"> 16.11 </span>
+          <br />
+          <span class="emoij"> 🌤 </span>
+          <br />
+          <span class="temp"> 13°C / 3°C </span>
+        </div>
+        <div class="col">
+          <span class="weekday"> Thu </span>
+          <br />
+          <span class="date"> 17.11 </span>
+          <br />
+          <span class="emoij"> 🌧 </span>
+          <br />
+          <span class="temp"> 13°C / 3°C </span>
+        </div>
+        <div class="col">
+          <span class="weekday"> Fri </span>
+          <br />
+          <span class="date"> 18.11 </span>
+          <br />
+          <span class="emoij"> 🌧 </span>
+          <br />
+          <span class="temp"> 13°C / 3°C </span>
+        </div>
+        <div class="col">
+          <span class="weekday"> Sat </span>
+          <br />
+          <span class="date"> 19.11 </span>
+          <br />
+          <span class="emoij"> 🌧 </span>
+          <br />
+          <span class="temp"> 13°C / 3°C </span>
+        </div>
+        <footer>More details</footer>
+        <input
+          type="submit"
+          value="current Location"
+          class="btn btn-primary submit"
+          id="currentLocationButton"
+        />
+      </div>
+
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>
