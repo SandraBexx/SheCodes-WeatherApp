@@ -1,0 +1,126 @@
+body {
+  font-family: Google Sans, arial, sans-serif;
+  display: block;
+  margin: 0 auto;
+
+  padding: 10px 15px;
+  max-width: fit-content;
+  background-color: black;
+}
+.box {
+  border: 5px solid #ffe1e1;
+  border-radius: 8px;
+  background: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+
+  padding: 10px 30px;
+  max-width: 600px;
+}
+
+h1 {
+  color: #50d3c6;
+  font-weight: bolder;
+  margin-top: 60px;
+  font-family: "Marhey", cursive;
+}
+
+h2 {
+  color: #50d3c6;
+  margin-bottom: 5px;
+  font-family: "Marhey", cursive;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #50d3c6;
+  font-weight: bolder;
+  font-family: "Marhey", cursive;
+}
+
+footer {
+  display: inline;
+  text-align: right;
+  text-decoration: underline;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #50d3c6;
+}
+
+a:hover {
+  color: #39968d;
+}
+
+#currentLocationButton:hover {
+  color: #39968d;
+  background: #50d3c6;
+  border: solid 2px #39968d;
+}
+
+#searchButton:hover {
+  color: #39968d;
+  background: #50d3c6;
+  border: solid 2px #39968d;
+}
+
+.sun-gif {
+  border: solid 1px #4f5151;
+  border-radius: 4px;
+  width: 200px;
+  display: block;
+  margin-top: -150px;
+  margin-left: 250px;
+}
+
+.form-control {
+  display: inline;
+  width: 75%;
+}
+
+.submit {
+  display: inline;
+  width: 20%;
+  background: #46b5aa;
+  border: #46b5aa;
+}
+
+.temperatureUnit {
+  font-size: 15px;
+}
+
+.row {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.weekday {
+  font-family: "Lobster", cursive;
+  color: #39968d;
+}
+
+.date {
+  font-size: 12px;
+}
+
+.temp {
+  font-size: 12px;
+  margin-left: -8px;
+}
+
+.emoij {
+  margin-left: 8px;
+}
+
+#currentLocationButton {
+  height: 20px;
+  font-size: 11px;
+  padding-top: 2px;
+  margin-top: 0px;
+}
